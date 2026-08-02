@@ -1,0 +1,23 @@
+# Yacob
+
+> Yacob was a Dubai-based "Intelligent Nutrition" platform and 500 Global portfolio company that combined cashless school-meal payments with nutrition monitoring: pupils paid for school meals with a stored-value card while parents topped up accounts online, tracked transactions, set spend and food limits, flagged allergies, and reviewed the nutritional value of what their children ate.
+
+The company appears dormant: yacob.com no longer resolves (its DNS zone is
+deleted and the domain served a GoDaddy parked lander by 2025). This summary is
+grounded in the last live archived copies of yacob.com (2019-2021 snapshots on
+the Internet Archive). No public API, developer portal, SDKs, or machine-readable
+specifications were ever found for this company.
+
+## Company
+
+- Website (dormant, does not resolve): https://yacob.com
+- Archived site (2020): https://web.archive.org/web/20200815181545/http://yacob.com/
+- Backed by: 500 Global (https://500.co/portfolio)
+
+## APIs
+
+- None published. No OpenAPI, AsyncAPI, GraphQL, or developer documentation surface was found.
+
+## Profile
+
+- APIs.json profile: https://raw.githubusercontent.com/api-evangelist/yacob/refs/heads/main/apis.yml

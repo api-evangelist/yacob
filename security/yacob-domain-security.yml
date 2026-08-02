@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: probed
+source: dig + whois + HTTPS probe (probe-domain-security.py reported host unreachable; manual dig/whois detail recorded)
+note: >-
+  yacob.com is registered (GoDaddy, created 2002-03-26, expires 2027-03-26)
+  and delegated to Google Cloud DNS nameservers (ns-cloud-a1..a4.googledomains.com),
+  but those nameservers do not answer for the zone (SERVFAIL) — the DNS zone
+  appears deleted. No A, NS, MX, TXT, CAA, DS, or DMARC records resolve, and the
+  website is unreachable. The last non-parked archived copy of the site is from
+  2021 (web.archive.org); by March 2025 the domain served a GoDaddy parked lander.
+hosts:
+  - host: yacob.com
+    reachable: false
+    https: false
+    dns_status: SERVFAIL
+domains:
+  - domain: yacob.com
+    registrar: GoDaddy.com, LLC
+    registered: true
+    creation_date: '2002-03-26'
+    expiry_date: '2027-03-26'
+    nameservers:
+      - ns-cloud-a1.googledomains.com
+      - ns-cloud-a2.googledomains.com
+      - ns-cloud-a3.googledomains.com
+      - ns-cloud-a4.googledomains.com
+    zone_resolves: false
+    dnssec: false
+    caa: []
+    spf: false
+    dmarc: false

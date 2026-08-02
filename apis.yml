@@ -1,7 +1,24 @@
 aid: yacob
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yacob.png
 name: Yacob
-description: Yacob is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Yacob was a Dubai-based Intelligent Nutrition platform and 500 Global
+  portfolio company that combined cashless school-meal payments with nutrition monitoring.
+  Pupils paid for school meals with a stored-value card while parents topped up accounts
+  online, tracked transactions in real time, set spend and food limits, flagged allergies,
+  and reviewed the nutritional value of their children's meals. The company appears
+  dormant, with yacob.com no longer resolving as of 2026, and no public API surface
+  was ever found.
 url: https://raw.githubusercontent.com/api-evangelist/yacob/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,21 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: dormant
+x-status-evidence: yacob.com DNS zone deleted (nameservers SERVFAIL); GoDaddy parked
+  lander by 2025-03; last live archived site 2021 (web.archive.org)
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Nutrition
+- Education
+- Payments
+- Cashless Payments
+- Schools
+- Parenting
+- United Arab Emirates
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,12 @@ maintainers:
 common:
 - type: Website
   url: https://yacob.com
+- type: DomainSecurity
+  url: security/yacob-domain-security.yml
+- type: LLMsTxt
+  url: llms/yacob-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
