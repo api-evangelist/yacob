@@ -29,7 +29,7 @@ x-tier-reason: portfolio-lead
 x-status: dormant
 x-status-evidence: yacob.com DNS zone deleted (nameservers SERVFAIL); GoDaddy parked
   lander by 2025-03; last live archived site 2021 (web.archive.org)
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
