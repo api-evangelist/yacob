@@ -31,6 +31,9 @@ description: Yacob was a Dubai-based Intelligent Nutrition platform and 500 Glob
   dormant, with yacob.com no longer resolving as of 2026, and no public API surface
   was ever found.
 url: https://raw.githubusercontent.com/api-evangelist/yacob/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "The company appears dormant, with yacob.com no longer resolving as of 2026, and no public API surface was ever found."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
